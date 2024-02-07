@@ -110,7 +110,7 @@ If you have the console open, or go and open the log located at "%appdata%\..\Lo
 
 Looking at the source of a mod you want to search for the line that starts with "_[BepInPlugin(_" (example below) and when you find it you want to take the middle attribute, this one shows **_ModName_** is the correct name to use (Note: Sometimes mods will use the same name for the first and second attribute).
 
-```cfg
+```cs
 [BepInPlugin("PXC.ModName", "ModName", "1.1.3")]
 ```
 
