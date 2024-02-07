@@ -1,0 +1,9 @@
+{
+    "name": "PreloadManager",
+    "version_number": "1.0.0",
+    "website_url": "http://pxcnet.com/LC",
+    "description": "Lightweight preload patcher utility",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}
