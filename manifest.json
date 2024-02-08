@@ -1,6 +1,6 @@
 {
     "name": "PreloadManager",
-    "version_number": "1.0.0",
+    "version_number": "1.0.1",
     "website_url": "http://pxcnet.com/LC",
     "description": "Lightweight preload patcher utility",
     "dependencies": [
