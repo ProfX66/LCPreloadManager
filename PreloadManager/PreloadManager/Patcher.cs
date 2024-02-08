@@ -62,7 +62,7 @@ namespace BepInEx.PreloadManager
             }
 
             List<string> PrePluginToNeuter = Utilities.ResolvePluginList(RawItemList);
-            PluginToNeuter = PrePluginToNeuter.Distinct().ToList();
+            if (PrePluginToNeuter != null) PluginToNeuter = PrePluginToNeuter.Distinct().ToList();
 
             if (PluginToNeuter == null || PluginToNeuter.Count < 1)
             {
